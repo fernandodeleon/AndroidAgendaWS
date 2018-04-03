@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Agenda</string>
+    <string name="nombre">Edwin</string>
+    <string name="telefono">11112222</string>
+    <string name="email">edwindeleon2016@gmail.com</string>
+    <string name="pnombre">Agenda</string>
+    <string name="ptelefono">Agenda</string>
+    <string name="pemail">Agenda</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
