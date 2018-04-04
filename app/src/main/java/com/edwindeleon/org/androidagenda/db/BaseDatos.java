@@ -63,7 +63,7 @@ public class BaseDatos extends SQLiteOpenHelper {
         Cursor registros = db.rawQuery(query, null);
 
         while(registros.moveToNext()){
-            Contacto contactoActual = new Contacto();
+            /*Contacto contactoActual = new Contacto();
             contactoActual.setIdContacto(registros.getInt(0));
             contactoActual.setNombre(registros.getString(1));
             contactoActual.setTelefono(registros.getString(2));
@@ -82,7 +82,7 @@ public class BaseDatos extends SQLiteOpenHelper {
             }
 
             contactos.add(contactoActual);
-            //contactoActual.setLike();
+            //contactoActual.setLike();*/
         }
 
         db.close();
@@ -102,7 +102,7 @@ public class BaseDatos extends SQLiteOpenHelper {
         db.close();
     }
 
-    public int obtenerLikesContacto(Contacto contacto){
+    /*public int obtenerLikesContacto(Contacto contacto){
         int likes = 0;
 
         String query = "SELECT COUNT(" + ConstantesBaseDatos.TABLE_LIKES_CONTACT_NUMERO_LIKES + ")" +
@@ -117,5 +117,5 @@ public class BaseDatos extends SQLiteOpenHelper {
         db.close();
 
         return likes;
-    }
+    }*/
 }
